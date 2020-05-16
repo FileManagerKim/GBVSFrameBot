@@ -348,3 +348,17 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# JSON file types
+*.json
+
+# DB file types
+*.db
+*.db-wal
+*.db-shm
+
+# Image files
+*.png
+
+# Entity Migrations
+Migrations/
