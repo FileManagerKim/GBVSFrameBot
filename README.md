@@ -9,16 +9,13 @@ A granblue versus frame data discord bot built with the Discord.Net API. Designe
 3. All other necessary components will be generated on compile time, including the database and the entity migration data. Note that you may need to restore the project to import the dependencies.
 
 # Common Questions
-Q: Why is there no compiled version available?
-
+>Q: Why is there no compiled version available?
 A: This version is uncompiled and unavailable on the discord bot repository because it was designed for dustloop moderators and devs to take and alter for any of their site's supported games. The bot however does not contain any secured information relative to the site, which is why I decided to make the source code public.
 
-Q: My database isn't working, its not getting a database exception but there are no frame data entries!
-
+>Q: My database isn't working, its not getting a database exception but there are no frame data entries!
 A: GBVSFrameBot uses a SQLite database. The database will not be populated with entries by default but will be generated empty on compile. Scrape your own data, or visit https://www.dustloop.com/forums/ and contact a Dustloop administrator for a database/excel file that can be imported.
 
-Q: I created a database for my game, but I'm getting an invalid entry exception. What did I do wrong?
-
+>Q: I created a database for my game, but I'm getting an invalid entry exception. What did I do wrong?
 A: GBVSFrameBot is designed to work for games that use the same metrics and recording format that is used by Dustloop, and therefore is only compatible with games under their umbrella. However the code can be easily adjusted to fit any framework, simply alter the FrameDataModule to suit your game's needs.
 
 # Special Thanks
